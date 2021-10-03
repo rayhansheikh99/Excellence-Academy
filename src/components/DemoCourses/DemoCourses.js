@@ -5,9 +5,9 @@ import './democourses.css'
 const DemoCourses = (props) => {
     const {title, image, duration, exam, subject, liveClass} = props.course
     return (
-        <div>
+        <div className=''>
              <div className="col ">
-                    <div className="card h-100 card-element">
+                    <div className="card h-100 card-element card-design ">
                     <img src={image} className="card-img-top img-course mx-auto d-block" alt="..."/>
                     <div className="card-body text-ele">
                         <h3 className="card-title">{title}</h3>

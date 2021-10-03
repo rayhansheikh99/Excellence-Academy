@@ -13,7 +13,7 @@ const Courses = () => {
 
     return (
         <div className='home-container mb-3 mx-5'>
-            <div className="row row-cols-1 row-cols-md-3 g-4 card-design pb-3">
+            <div className="row row-cols-1 row-cols-md-3 g-4 pb-3">
                 {
                     
                     courses.map(course=> <DemoCourses key={course.key} course={course}/>)
