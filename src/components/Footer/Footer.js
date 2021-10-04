@@ -17,6 +17,7 @@ import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
+      {/* footer section  */}
       <div className="footer-container">
         <div className="container">
           <div className="row">
@@ -25,16 +26,16 @@ const Footer = () => {
                 <h1>Excellence Academy</h1>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
-                    <FontAwesomeIcon icon={faInstagramSquare} />
+                  <a href="https://www.instagram.com/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faInstagramSquare} /></a>
                   </div>
                   <div className="icon">
-                    <FontAwesomeIcon icon={faTwitterSquare} />
+                  <a href="https://twitter.com/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faTwitterSquare} /></a>
                   </div>
                   <div className="icon">
-                    <FontAwesomeIcon icon={faYoutube} />
+                  <a href="https://www.youtube.com/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faYoutube} /></a>
                   </div>
                   <div className="icon">
-                  <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebookSquare} /></a>
+                  <a href="https://www.facebook.com/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faFacebookSquare} /></a>
                   </div>
                 </div>
 

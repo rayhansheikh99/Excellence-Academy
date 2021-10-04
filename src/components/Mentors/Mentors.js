@@ -7,9 +7,10 @@ import './mentors.css'
 
 const Mentors = () => {
     return (
+      // mentor card show section 
         <div>
             <div className='mb-3'>
-                <h1>Our Mentors</h1>
+                <h1 className='title-design'>Our Mentors</h1>
             </div>
             <div>
             <CardGroup className="g-5 pb-3 mt-2">

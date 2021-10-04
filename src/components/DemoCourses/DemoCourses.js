@@ -5,6 +5,7 @@ import './democourses.css'
 const DemoCourses = (props) => {
     const {title, image, duration, exam, subject, liveClass} = props.course
     return (
+        // grid card design for courses 
         <div className=''>
              <div className="col ">
                     <div className="card h-100 card-element card-design ">

@@ -7,6 +7,7 @@ import img2 from '../../images/Goal.jpg'
 const About = () => {
     return (
         <div>
+            {/* About us section  */}
             <Container className='about-part'>
              <Row>
                 <Col xs={6}>

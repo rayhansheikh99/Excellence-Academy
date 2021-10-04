@@ -3,6 +3,8 @@ import DemoCourses from '../DemoCourses/DemoCourses';
 import Mentors from '../Mentors/Mentors';
 import './home.css'
 
+
+// data fetch and card show 
 const Home = () => {
 
     const [courses,setCourses] = useState([]);
@@ -18,7 +20,7 @@ const Home = () => {
             <div>
                <Mentors/>
             </div>
-            <div className='mb-3 mt-4'><h1>Our Courses</h1></div>
+            <div className='mb-3 mt-4'><h1 className='title-design'>Our Courses</h1></div>
 
             <div className="row row-cols-1 row-cols-md-2 g-5 pb-3 mt-3">
                 {

@@ -7,6 +7,7 @@ import './contact.css';
 const Contact = () => {
     return (
         <div className='contact-part'>
+          {/* contact us section  */}
             <h1 >Contact Us</h1>
             <Container >
              <Row>

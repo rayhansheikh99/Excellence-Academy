@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import DemoCourses from '../DemoCourses/DemoCourses';
 import './courses.css';
 
+
+// fetch data here 
 const Courses = () => {
     const [courses,setCourses] = useState([]);
 
@@ -13,11 +15,11 @@ const Courses = () => {
 
     return (
         <div className='home-container mb-3 mx-5'>
-                        <div className='mb-5'><h1>Our Courses</h1></div>
+                        <div className='mb-5'><h1 className="title">Our Courses</h1></div>
 
             <div className="row row-cols-1 row-cols-md-3 g-4 pb-3">
                 {
-                    
+                    // loop for data 
                     courses.map(course=> <DemoCourses key={course.key} course={course}/>)
                     
 

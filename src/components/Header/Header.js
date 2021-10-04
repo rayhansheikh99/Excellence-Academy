@@ -7,6 +7,7 @@ import './header.css'
 const Header = () => {
     return (
         <div>
+          {/* header section with logo navbar  */}
             <Navbar className='fixed-top' collapseOnSelect expand="lg" bg="secondary" variant="dark">
   <Container>
   <NavLink to="/home"><img className='img-size' src={img} alt=''></img> </NavLink>
