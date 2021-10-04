@@ -13,6 +13,8 @@ const Courses = () => {
 
     return (
         <div className='home-container mb-3 mx-5'>
+                        <div className='mb-5'><h1>Our Courses</h1></div>
+
             <div className="row row-cols-1 row-cols-md-3 g-4 pb-3">
                 {
                     

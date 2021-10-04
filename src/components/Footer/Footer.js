@@ -12,7 +12,7 @@ import {
   faMapMarkedAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { Button, Nav } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faYoutube} />
                   </div>
                   <div className="icon">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
+                  <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebookSquare} /></a>
                   </div>
                 </div>
 
@@ -77,7 +77,7 @@ const Footer = () => {
                   </div>
                   <div className='ms-2'>
                     <p>
-                    Road No. 1, Mirpur, Dhaka
+                    Road No. 1, Dhanmondi, Dhaka
                       <br /> Dhaka Division, Bangladesh
                     </p>
                   </div>

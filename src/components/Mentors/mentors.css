@@ -1,0 +1,14 @@
+.mentor-img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0 0 !important;
+
+}
+.mentor-card{
+    height: 400px;
+    margin: 50px;
+    border-radius: 20px !important;
+}
+.btn-design{
+    border-radius: 25px !important;
+}

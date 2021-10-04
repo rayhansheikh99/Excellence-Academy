@@ -4,6 +4,11 @@
 }
 .logo-name{
     font-size: 28px;
+    text-decoration: none;
+    color: cornsilk;
+}
+.logo-name:hover{
+    color: rgb(233, 226, 201) !important;
 }
 .nav-menu{
     text-decoration: none;
