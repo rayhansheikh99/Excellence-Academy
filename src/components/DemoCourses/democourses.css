@@ -6,6 +6,8 @@
 .card-design{
     border-radius: 20px !important;
     box-shadow: grey 5px 2px 10px 0px;
+    width: 400px;
+    margin-left: 25px;
 }
 .card-footer{
     background-color: rgba(130, 146, 74, 0.295) !important;
