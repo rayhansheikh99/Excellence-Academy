@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import DemoCourses from '../DemoCourses/DemoCourses';
+import Grow from '../Growup/Grow';
 import Mentors from '../Mentors/Mentors';
 import './home.css'
 
@@ -17,6 +18,9 @@ const Home = () => {
 
     return (
         <div className='home-container mb-3'>
+            <div>
+                <Grow/>
+            </div>
             <div>
                <Mentors/>
             </div>

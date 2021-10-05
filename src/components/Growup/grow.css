@@ -1,0 +1,17 @@
+.grow-img{
+    margin: auto;
+    margin-top: 5px;    
+}
+.grow-card{
+    height:150px;
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+.grow-img-right{
+    margin-left: 100px;
+}
+.grow-title{
+   text-align: left !important;
+}

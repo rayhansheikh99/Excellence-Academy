@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import './democourses.css'
 
 const DemoCourses = (props) => {
@@ -7,7 +7,7 @@ const DemoCourses = (props) => {
     return (
         // grid card design for courses 
         <div className=''>
-             <div className="col ">
+             {/* <div className="col ">
                     <div className="card h-100 card-element card-design ">
                     <img src={image} className="card-img-top img-course mx-auto d-block" alt="..."/>
                     <div className="card-body text-ele">
@@ -22,7 +22,23 @@ const DemoCourses = (props) => {
                         <Button className='px-5 btn-design'>Explore Course</Button>
                     </div>
                     </div>
-                </div>
+                </div> */}
+                <Card className="card h-100 card-element card-design " style={{ width: '28rem' }}>
+  <Card.Img className="card-img-top img-course mx-auto d-block" variant="top" src={image} />
+  <Card.Body>
+    <Card.Title>{title}</Card.Title>
+  </Card.Body>
+  <ListGroup className="list-group-flush">
+    <ListGroupItem><b>Total Subject:</b> {subject}</ListGroupItem>
+    <ListGroupItem><b>Total Live Class:</b> {liveClass}</ListGroupItem>
+    <ListGroupItem><b>Total Class Duration:</b> {duration}</ListGroupItem>
+    <ListGroupItem><b>Exam: </b>{exam}</ListGroupItem>
+  </ListGroup>
+  <Card.Body>
+  <Button className='px-5 btn-design'>Explore Course</Button>
+  
+  </Card.Body>
+</Card>
         </div>
     );
 };
